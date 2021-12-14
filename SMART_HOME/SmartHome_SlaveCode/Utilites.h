@@ -1,9 +1,3 @@
-/*
- * Utilites.h
- *
- *  Created on: Sep 7, 2018
- *      Author: Mohamed
- */
 
 #ifndef UTILITES_H_
 #define UTILITES_H_
