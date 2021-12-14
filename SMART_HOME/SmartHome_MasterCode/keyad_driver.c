@@ -1,7 +1,7 @@
 /*
  * keyad_driver.c
  *
- *  Created on: Dec 12, 2021
+ *  Created on: Oct 12, 2021
  *      Author: ELHOSSENI
  */
 
@@ -33,7 +33,10 @@ void Keypad_Init(void){
 u8 Keypad_GetPressedKey(void){
 
 	u8 return_value = NOT_PRESSED;
-	u8 arr[4][4] = {{'7','8','9','/'},{'4','5','6','*'},{'1','2','3','-'},{'A','0','=','+'}};
+	u8 arr[4][4] = {{'7','8','9','/'},
+			{'4','5','6','*'},
+			{'1','2','3','-'},
+			{'A','0','=','+'}};
 	u8 row,col;
 	u8 key_pressed;
 	for(row = 0; row < 4; row++){
