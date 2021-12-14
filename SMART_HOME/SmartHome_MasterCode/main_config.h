@@ -1,8 +1,8 @@
 /*
  * main_config.h
  *
- *  Created on: Dec 12, 2021
- *      Author: ELKHOLY
+ *  Created on: Oct 12, 2021
+ *      Author: ELHOSSNEI
  */
 
 #ifndef MAIN_CONFIG_H_
@@ -31,18 +31,17 @@
 #define EEPROM_ADMIN_ADDRESS      0X102
 #define EEPROM_GUEST_ADDRESS      0X106
 #define LOGIN_BLOCKED_ADDRESS     0X10A
-/*****************************************************************************************/
+
 
 /************************************   Login configurations *****************************/
 #define NO_MODE 0
 #define ADMIN   1
 #define GUEST   2
-/****************************************************************************************/
+
 
 /************************************   Logic values *************************************/
 #define FALSE   0
 #define TRUE    1
-/*****************************************************************************************/
 
 #define CHECK_ADMIN_MODE        '0'
 #define CHECK_GUEST_MODE        '1'
@@ -65,7 +64,7 @@
 /****************************   number of ticks to run timeout ***************************/
 #define ADMIN_TIMEOUT 5000
 #define GUEST_TIMEOUT 2000
-/*****************************************************************************************/
+
 
 /****************************   Show menu codes  *****************************************/
 #define MAIN_MENU            1
@@ -78,7 +77,6 @@
 #define AIRCONDITIONING_MENU 8
 #define AIRCOND_CTRL_MENU    9
 #define TEMPERATURE_MENU     10
-/*****************************************************************************************/
 
 
 
