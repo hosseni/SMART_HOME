@@ -1,9 +1,4 @@
-/*
- * ADC_Int.h
- *
- *  Created on: Nov 6, 2020
- *      Author: Mohamed
- */
+
 
 #ifndef ADC_INT_H_
 #define ADC_INT_H_
