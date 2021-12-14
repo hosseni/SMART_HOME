@@ -2,7 +2,7 @@
  * DIO_SLAVE_CONFIG.h
  *
  *  Created on: Dec 1, 2021
- *      Author: ELKHOLY
+ *      Author: ELHOSSENI
  */
 
 #ifndef DIO_SLAVE_CONFIG_H_
