@@ -1,16 +1,11 @@
-/*
- * EEPROM_Prog.c
- *
- *  Created on: Dec 11, 2020
- *      Author: Mohamed
- */
+
 
 #include "Utilites.h"
 #include "EEPROM_Int.h"
 #include <avr/io.h>
 
 
-u8 EEPROM_ReadByteFromAddress(const u16 u16Address)
+u8 EEPROM_ReadByteFromAddress( u16 u16Address)
 {
 	/* Wait for completion of previous write */
 	while (((EECR & (1 << EEWE))>>EEWE)==1)
@@ -23,7 +18,7 @@ u8 EEPROM_ReadByteFromAddress(const u16 u16Address)
 	return EEDR;
 }
 
-void EEPROM_ReadBlockFromAddress(const u16 uiAddress, u8* dist,const u16 size)
+void EEPROM_ReadBlockFromAddress( u16 uiAddress, u8* dist, u16 size)
 {
 	/* Wait for completion of previous write */
 	while (((EECR & (1 << EEWE))>>EEWE)==1);
@@ -43,7 +38,7 @@ void EEPROM_ReadBlockFromAddress(const u16 uiAddress, u8* dist,const u16 size)
 	}
 }
 
-void EEPROM_WriteByteToAddress(const u16 uiAddress, const u8 uiData)
+void EEPROM_WriteByteToAddress( u16 uiAddress,  u8 uiData)
 {
 
 	/* Wait for completion of previous write process*/
@@ -70,7 +65,7 @@ void EEPROM_WriteByteToAddress(const u16 uiAddress, const u8 uiData)
 
 }
 
-void EEPROM_WriteBlockToAddress(const u16 uiAddress, const u8* uiData,const u16 size)
+void EEPROM_WriteBlockToAddress( u16 uiAddress,  u8* uiData, u16 size)
 {
 	u16 counter = 0;//Bytes write counter
 	while (counter < size)
