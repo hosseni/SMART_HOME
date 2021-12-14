@@ -2,7 +2,7 @@
  * APP_SLAVE_MACROS.h
  *
  *  Created on: Dec 1, 2021
- *      Author: ELKHOLY
+ *      Author: ELHOSSENI
  */
 
 #ifndef APP_SLAVE_MACROS_H_
