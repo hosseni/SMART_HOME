@@ -2,7 +2,7 @@
  * STD_MESSAGE.h
  *
  *  Created on: Dec 1, 2021
- *      Author: ELKHOLY
+ *      Author: ELHOSSENI
  */
 
 #ifndef STD_MESSAGE_H_
