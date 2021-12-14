@@ -1,9 +1,4 @@
-/*
- * LCD_Int.h
- *
- *  Created on: Oct 31, 2020
- *      Author: Mohamed
- */
+
 
 #ifndef LCD_INT_H_
 #define LCD_INT_H_
