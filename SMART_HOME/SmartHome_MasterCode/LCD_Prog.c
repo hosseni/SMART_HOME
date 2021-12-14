@@ -41,19 +41,6 @@ void LCD_WriteCommand(u8 Command) {
 	_delay_ms(2);
 
 
-	/*
-	//RS low
-	Dio_SetPinValue(LCD_CONTROL_PORT, LCD_RS_PIN, LOW);
-	//RW low
-	Dio_SetPinValue(LCD_CONTROL_PORT, LCD_RW_PIN, LOW);
-	PORTD = Command;
-	//set enable pin high
-	Dio_SetPinValue(LCD_CONTROL_PORT, LCD_EN_PIN, HIGH);
-	_delay_ms(20);
-	//set enable pin low
-	Dio_SetPinValue(LCD_CONTROL_PORT, LCD_EN_PIN, LOW);
-	_delay_ms(20);
-*/
 
 }
 void LCD_WriteChar(u8 Data) {
